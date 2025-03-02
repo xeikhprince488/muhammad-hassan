@@ -44,7 +44,7 @@ const Header = () => {
         <div className="flex items-center space-x-2">
           <Heart className="text-pink-500 animate-pulse" size={24} />
           <h1 className={`font-bold transition-all duration-500 ${isScrolled ? "text-xl" : "text-2xl"}`}>
-            Hassan's Joy
+            Hussain's Joy
           </h1>
         </div>
 

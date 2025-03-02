@@ -21,21 +21,21 @@ const Guestbook = () => {
     {
       id: 1,
       name: "Uncle Ajmal and Khala Parveen",
-      message: "We are so blessed to welcome little Hassan into our family. Can't wait to spoil you with love!",
+      message: "We are so blessed to welcome little Hussain into our family. Can't wait to spoil you with love!",
       date: "2 days ago",
     },
     {
       id: 2,
       name: "Ahmad and Mehroz",
       message:
-        "Congratulations on your new bundle of joy! Hassan is such a beautiful name. Wishing you all the happiness in the world.",
+        "Congratulations on your new bundle of joy! Hussain is such a beautiful name. Wishing you all the happiness in the world.",
       date: "1 days ago",
     },
     {
       id: 3,
       name: "Anaya Fatima",
       message:
-        "Hassan is such a precious little miracle! Looking forward to watching you grow and creating beautiful memories together.",
+        "Hussain is such a precious little miracle! Looking forward to watching you grow and creating beautiful memories together.",
       date: "1 days ago",
     },
   ])
@@ -111,16 +111,16 @@ const Guestbook = () => {
           <div className="inline-block bg-green-100 p-2 md:p-3 rounded-full mb-3 md:mb-4">
             <MessageSquare className="text-green-500" size={24} />
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 md:mb-4">Hassan's Guestbook</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 md:mb-4">Hussain's Guestbook</h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-2">
-            Leave a message for little Hassan to read in the future!
+            Leave a message for little Hussain to read in the future!
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
           {/* Message form */}
           <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 mb-6 md:mb-10">
-            <h3 className="text-xl sm:text-2xl font-bold mb-4 md:mb-6">Share Your Wishes for Hassan</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-4 md:mb-6">Share Your Wishes for Hussain</h3>
 
             <form onSubmit={handleSubmit}>
               <div className="mb-4">
@@ -147,7 +147,7 @@ const Guestbook = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   className="w-full px-3 md:px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all h-24 md:h-32"
-                  placeholder="Write your message for Hassan here..."
+                  placeholder="Write your message for Hussain here..."
                   required
                 />
               </div>

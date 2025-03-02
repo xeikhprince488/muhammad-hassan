@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react"
 import { Heart, Users, ThumbsUp } from "lucide-react"
 
-const HassanGreeting = () => {
+const HussainGreeting = () => {
   const [isVisible, setIsVisible] = useState(false)
   const sectionRef = useRef<HTMLElement>(null)
 
@@ -65,7 +65,7 @@ const HassanGreeting = () => {
           <div className="inline-block bg-indigo-100 p-2 sm:p-3 rounded-full mb-3 sm:mb-4">
             <Heart className="text-indigo-500 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
           </div>
-          <h2 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4">Hello from Baby Hassan!</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4">Hello from Baby Hussain!</h2>
           <div
             className={`text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto transition-all duration-1000 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
@@ -73,7 +73,7 @@ const HassanGreeting = () => {
             style={{ transitionDelay: "200ms" }}
           >
             <p className="mb-3 sm:mb-4 px-2">
-              Assalamu Alaikum and hello to everyone! I'm Muhammad Hassan, and I'm just 2 days old in this beautiful
+              Assalamu Alaikum and hello to everyone! I'm Muhammad Hussain, and I'm just 2 days old in this beautiful
               world!
             </p>
             <p className="px-2">
@@ -165,5 +165,5 @@ const HassanGreeting = () => {
   )
 }
 
-export default HassanGreeting
+export default HussainGreeting
 

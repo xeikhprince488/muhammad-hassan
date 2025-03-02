@@ -11,7 +11,7 @@ const Gallery = () => {
   const babyImages = [
     {
       url: "https://images.unsplash.com/photo-1519689680058-324335c77eba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      caption: "Hassan's first day home",
+      caption: "Hussain's first day home",
     },
     {
       url: "https://images.unsplash.com/photo-1544126592-807ade215a0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
@@ -19,11 +19,11 @@ const Gallery = () => {
     },
     {
       url: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      caption: "Hassan's tiny fingers",
+      caption: "Hussain's tiny fingers",
     },
     {
       url: "https://images.unsplash.com/photo-1610122748280-d0ae76b10750?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      caption: "Hassan's first smile",
+      caption: "Hussain's first smile",
     },
     {
       url: "https://images.unsplash.com/photo-1537673156864-5d2c72de7824?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -77,9 +77,9 @@ const Gallery = () => {
           <div className="inline-block bg-blue-100 p-2 sm:p-3 rounded-full mb-3 sm:mb-4">
             <Camera className="text-blue-500 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3 md:mb-4">Hassan's Precious Moments</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3 md:mb-4">Hussain's Precious Moments</h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-xs sm:max-w-lg md:max-w-2xl mx-auto">
-            Capturing the beautiful journey of our little Hassan, one smile at a time.
+            Capturing the beautiful journey of our little Hussain, one smile at a time.
           </p>
         </div>
 

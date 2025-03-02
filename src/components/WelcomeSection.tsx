@@ -70,11 +70,11 @@ const WelcomeSection = () => {
         </div>
 
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 leading-tight">
-          Welcome Hassan to the World!
+          Welcome Hussain to the World!
         </h1>
 
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 leading-relaxed">
-          With hearts full of joy, we celebrate the arrival of our precious little Hassan. A new journey begins, filled
+          With hearts full of joy, we celebrate the arrival of our precious little Hussain. A new journey begins, filled
           with love, laughter, and countless beautiful moments.
         </p>
 

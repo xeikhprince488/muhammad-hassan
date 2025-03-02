@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-6 sm:mb-8">
-            <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4">Share Hassan's Joy</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4">Share Hussain's Joy</h3>
             <p className="text-base sm:text-lg opacity-90 mb-4 sm:mb-6 px-2">
               Help us celebrate this special moment by sharing with friends and family.
             </p>
@@ -30,10 +30,10 @@ const Footer = () => {
           <div className="border-t border-white/20 pt-6 sm:pt-8 text-center">
             <div className="flex justify-center items-center mb-3 sm:mb-4">
               <Heart className="text-white mr-2" size={16} fill="currentColor" />
-              <p className="text-base sm:text-lg font-medium">Hassan's Joy</p>
+              <p className="text-base sm:text-lg font-medium">Hussain's Joy</p>
             </div>
             <p className="text-xs sm:text-sm opacity-75 px-2">
-              Created with love for our precious little Hassan © {new Date().getFullYear()}
+              Created with love for our precious little Hussain © {new Date().getFullYear()}
             </p>
           </div>
         </div>
