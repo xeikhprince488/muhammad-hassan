@@ -20,7 +20,7 @@ const Guestbook = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
-      name: "Uncle Ajmal and Khala Parveen",
+      name: "Uncle Ajmal and Khala ",
       message: "We are so blessed to welcome little Hussain into our family. Can't wait to spoil you with love!",
       date: "2 days ago",
     },
@@ -33,7 +33,7 @@ const Guestbook = () => {
     },
     {
       id: 3,
-      name: "Anaya Fatima",
+      name: "Big Sister",
       message:
         "Hussain is such a precious little miracle! Looking forward to watching you grow and creating beautiful memories together.",
       date: "1 days ago",
